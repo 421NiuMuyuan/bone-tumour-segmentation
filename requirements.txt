@@ -1,0 +1,13 @@
+# PyTorch + CUDA（请在 Conda 环境下执行以下命令安装）
+# conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia
+
+# 以下依赖通过 pip 安装
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+
+albumentations==1.3.0
+opencv-python==4.7.0.72
+pillow==9.4.0
+tqdm==4.64.1
+matplotlib==3.5.2
